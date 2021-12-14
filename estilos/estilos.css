@@ -1,0 +1,278 @@
+
+.shape__rectangle{
+    background-color: rgb(97, 97, 221);
+    height: 100;
+    width: 800;
+    display: flex;
+    justify-content: space-between;
+}
+.shape__button{
+    background-color: rgb(97, 97, 221);
+    height: 100px;
+    width: 300px;
+    border: solid ;
+    justify-content: center;
+    display: flex;
+    border-radius:  100px; ;
+    padding: 10px;
+    letter-spacing: 10px;
+
+}
+
+.letter{
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.letter__blue{
+    color:rgb(97, 97, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.letter__white{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    
+}
+main{
+    background-color: rgb(22, 22, 22);
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    margin: 0%;
+    padding: 0%;
+}
+
+footer{
+    background-color: rgb(22, 22, 22);
+    padding: 0%;
+    margin: 0%;
+    height: 150px;
+    
+}
+
+
+nav ul li{
+    display:inline-table;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: rgb(187, 180, 180);
+}
+
+nav ul li:hover{
+            background-color: rgb(255, 255, 255);
+           
+}
+
+
+.division__center{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.menu{
+    background-color:rgb(97, 97, 221) ;
+    display: flex;
+}
+/*----PROMOS--------*/
+
+#section-promos{
+display:flex;
+justify-content: space-evenly;
+width: 100%;
+flex-wrap: wrap;
+}
+
+#section-promos img{
+width: 100%;
+height: 100%;
+max-width: 350px;
+max-height: 500px;
+display: flex;
+flex-wrap: wrap;
+}
+/* -------------------*/
+
+#pieDePagina{
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    
+    
+}
+
+#pieDePagina img:hover{
+    transform: scale(1.2);
+}
+
+#pieDePagina a{
+    text-decoration: none;
+}
+
+.blackspace{
+    background-color:rgb(22, 22, 22) ;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+/*----------GALERIA-----------*/
+.sectionGaleria{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.galeria__img{
+    width: 350px;
+    height: 500px;
+    margin-bottom: 30px;
+    border: 4px solid rgb(97, 97, 221);
+    object-fit: cover;
+}
+
+/*----------CONTACTOS---------------*/
+
+.sectionContactos{
+    background-color: rgb(22, 22, 22);
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.sectionContactos img{
+    animation: Movimiento linear;
+    animation-iteration-count: infinite;
+    animation-duration: 1.9s;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.sectionContactos img{
+    display: flex;
+    border-radius: 10%;
+    border:3px solid rgb(97, 97, 221);
+   width: 600px;
+   height: 600px;
+}
+
+@keyframes Movimiento{
+    0%{transform: scale(1);}
+    25%{transform:scale(1.2) ;}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+}
+
+/*-----------TIENDA-------------*/
+
+.sectionTienda{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+    color: rgb(97, 97, 221);
+}
+
+.sectionTienda img{
+    height: 500px;
+    width: 400px;
+    margin-bottom: 30px;
+    object-fit:cover ;
+    border: 4px solid rgb(97, 97, 221);
+}
+
+
+/*---------NOSOTROS----------*/
+
+#grid__header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(97, 97, 221);
+    display: grid;
+    grid-template-columns:repeat(6 , 1fr) ;
+    grid-template-rows:  1fr;
+
+
+}
+
+#grid__header div a{
+    padding: 17px;
+    border-radius: 30px;
+    background-color: rgb(187, 180, 180);
+    line-height: 100px;
+    text-decoration: none;
+    border: 4px solid black;
+}
+
+#grid__header div a:hover{
+ background-color: rgb(245, 228, 198);
+}
+
+#grid__main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    height: 700px;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+   
+}
+
+.letter__white2{
+    margin: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+#grid__main div img{
+    height: 90%;
+    width: 90%;
+    border: 15px solid rgb(22, 22, 22);
+}
+
+
+#grid__footer{
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
+ grid-template-rows: 1fr;
+ height: 200px;
+ width: 100%;
+ background-color:  rgb(22, 22, 22);
+}
+
+#grid__footer div a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
